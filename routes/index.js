@@ -50,9 +50,12 @@ Array.prototype.random = function() {
 exports.index = function(req, res){
     var co = dict1.random();
     var group = dict2.random();
-    if (req.is("json") || req.param("json")){
+
+    if (req.accepted[0].value == "application/json" || req.param("json")){
         var badIdea = "It's like " + co + " for " + group + ".";
         res.json({badidea: badIdea});
     }
-  res.render('index', { title: 'Bad Ideas', co:co, group:group});
+    else {
+      res.render('index', { title: 'Bad Ideas', co:co, group:group});
+    }
 };

@@ -15,7 +15,11 @@ var dict1 = [
     "rdio",
     "ancestry.com",
     "legalZoom",
-    "udacity"
+    "udacity",
+    "woot",
+    "chat roulette",
+    "pinterest",
+    "eHarmony"
 ];
 var dict2 = [
     "fish",
@@ -29,7 +33,14 @@ var dict2 = [
     "hats",
     "short TV hosts",
     "yoga balls",
-    "dogs"
+    "dogs",
+    "meetings",
+    "wooden legs",
+    "tuna",
+    "solar powered flashlights",
+    "flightless birds",
+    "stamps",
+    "aging rock'n'rollers"
 ];
 
 exports.index = function(req, res){

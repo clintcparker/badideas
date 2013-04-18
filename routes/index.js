@@ -5,12 +5,31 @@
 var dict1 = [
     "linked-In",    
     "bitBucket",
-    "myspace"
+    "myspace",
+    "snapchat",
+    "digg",
+    "yahoo",
+    "bing",
+    "forrst",
+    "foursquare",
+    "rdio",
+    "ancestry.com",
+    "legalZoom",
+    "udacity"
 ];
 var dict2 = [
     "fish",
     "donuts",
-    "six year olds"
+    "six year olds",
+    "robots",
+    "weddings",
+    "office furniture",
+    "fake plants",
+    "paper towels",
+    "hats",
+    "short TV hosts",
+    "yoga balls",
+    "dogs"
 ];
 
 exports.index = function(req, res){

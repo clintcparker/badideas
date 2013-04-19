@@ -25,7 +25,7 @@ var dict1 = [
     "craigslist",
     "flickr",
     "yelp",
-    "reddis",
+    "reddit",
     "hipmunk",
     "pinterest",
     "prezi",

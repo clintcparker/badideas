@@ -19,8 +19,19 @@ var dict1 = [
     "woot",
     "chat roulette",
     "pinterest",
-    "eHarmony"
+    "eHarmony",
+    "skribd",
+    "youtube",
+    "craigslist",
+    "flickr",
+    "yelp",
+    "reddis",
+    "hipmunk",
+    "pinterest",
+    "prezi",
+    "hacker news"
 ];
+
 var dict2 = [
     "fish",
     "donuts",
@@ -37,10 +48,22 @@ var dict2 = [
     "meetings",
     "wooden legs",
     "tuna",
+    "people with braces",
     "solar powered flashlights",
     "flightless birds",
     "stamps",
-    "aging rock'n'rollers"
+    "aging rock'n'rollers",
+    "con artists",
+    "clowns",
+    "university cafeteria workers",
+    "cab drivers riders with eczema",
+    "bad programmers",
+    "bankers",
+    "dirty fireplaces",
+    "archelologists who prefer white wine",
+    "women's-lit majors",
+    "elvis impersonators and their fans",
+    "ux designers"
 ];
 
 Array.prototype.random = function() {

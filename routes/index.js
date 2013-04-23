@@ -1,4 +1,3 @@
-
 /*
  * GET home page.
  */
@@ -20,7 +19,7 @@ var dict1 = [
     "chat roulette",
     "pinterest",
     "eHarmony",
-    "skribd",
+    "scribd",
     "youtube",
     "craigslist",
     "flickr",
